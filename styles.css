@@ -84,8 +84,33 @@ a {
     padding-top: 20px;
   }
 }
-.profile li {
+.profile ul {
+  list-style: none;
+  padding: 0;
+}
+.profile ul li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
   margin-bottom: 10px;
+}
+.profile ul li i {
+  font-size: 18px;
+  color: #66cc99; /* Green for a fresh look */
+  margin-right: 10px;
+  width: 20px; /* Ensures alignment */
+  text-align: center;
+}
+.profile ul li strong {
+  color: #333;
+  margin-right: 5px;
+}
+.profile ul li a {
+  color: #66cc99;
+  text-decoration: none;
+}
+.profile ul li a:hover {
+  text-decoration: underline;
 }
 .profile .picture-resume-wrapper {
   width: 40%;
