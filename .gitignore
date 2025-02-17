@@ -1,0 +1,10 @@
+# Ignore HTML temp files
+*.html~
+
+# Ignore SCSS cache files
+.sass-cache/
+*.scss
+*.css.map
+
+# Ignore Visual Studio Code settings
+.vscode/
